@@ -12,8 +12,8 @@ import Axios from "axios";
 //
 // NOTE: you do _not_ need to install axios as it's included in the HTML via script element
 
-Axios.get('https://lambda-times-api.herokuapp.com/topics')
-    .then(result => console.log(result))
+// Axios.get('https://lambda-times-api.herokuapp.com/topics')
+//     .then(result => console.log(result))
 
 const tabMaker = (tabName) => {
     const result = document.createElement('div');
